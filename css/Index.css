@@ -1,0 +1,236 @@
+/*-- 
+   Mohammed Kabir
+   File: index.css
+	 Mohammed_kabir@student.uml.edu
+	 GUI Programming I
+	 Date: 6/24/2022
+   This file create a dynamic table based on the user input entered 
+   in the html form
+*/
+
+body {
+background-color: #276b92;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
+padding: 0px;
+height: 100%;
+width: 100%;
+font-family: "Nunito", sans-serif;
+}
+
+body > .container {
+padding: 65px 10px 0;
+}
+
+body > .row {
+margin: 10px;
+}
+
+html {
+min-height: 100%;
+position: relative;
+width: 100%;
+}
+
+.center_text_images {
+margin: auto;
+text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 350px;           
+  text-align: right;
+}​
+
+input {
+color: rgb(85, 48, 87);
+}
+
+
+
+div#multiplication_table {
+margin-left: auto;
+margin-right: auto;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height:40%;
+}
+
+tbody {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+tbody > tr > td {
+background-color: rgb(145, 114, 180);
+border: 3px solid #587bee;
+color: rgb(80, 52, 52);
+height: 50px;
+font-family: "Advent Pro";
+font-size: 160%;
+font-weight: 900;
+padding: 15px;
+text-align: center;
+}
+
+/* Style the very top row. */
+tbody > tr:first-child > td {
+background-color: rgb(68, 132, 143);
+color: white;
+}
+
+/* Style the left most column. */
+tbody > tr > td:first-child {
+background-color: rgb(150, 72, 143);
+color: white;
+}
+
+tbody > tr:first-child > td:first-child {
+background-color: #ffffff;    
+border-top: none;             
+border-left: none;
+color: rgb(24, 22, 22);
+opacity: 0;
+}
+
+.about {
+color: white;
+text-align: center;
+}
+
+.center_text {
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+font-weight: 900;
+text-align: center;
+}
+
+.center_text_nohighlight {
+color: rgb(92, 37, 37);
+font-size: 200%;
+text-align: center;
+}
+
+.center_text_small {
+color: white;
+font-family: "Advent Pro";
+font-size: 120%;
+font-weight: 900;
+text-align: center;
+}
+
+h1.name {
+color: white;
+font-family: "Ubuntu";
+font-size: 750%;
+text-align: center;
+}
+
+.highlight {
+background-color: rgb(179, 182, 28);
+}
+
+
+.highlight_red {
+background-color: rgb(179, 182, 28);;
+color: red;
+font-family: "Righteous";
+}
+
+.highlight_gold {    
+color: #599fb4;               
+font-family: "Nunito", sans-serif;
+font-size: 80%;
+}
+
+.highlight_centered {
+background-color: #487996;
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+font-weight: 900;
+text-align: center;
+}
+
+.highlight_centered_margins {
+background-color: rgb(75, 39, 173);
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+font-weight: 900;
+margin: 10px;
+text-align: center;
+}
+
+.highlight_left_aligned {
+background-color: rgb(28, 95, 182);
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+font-weight: 900;
+text-align: left;
+}
+
+.highlight_right_aligned {
+background-color: rgb(28, 95, 182);
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+font-weight: 900;
+margin-right: -20px;
+text-align: right;
+}
+
+.highlight_text_underline {
+background: rgb(28, 95, 182);
+font-weight: bold;
+text-decoration: underline;
+}
+
+.highlight_text_underline_centered {
+background-color: rgb(28, 95, 182);
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+font-weight: 900;
+text-align: center;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.left_align {
+color: white;
+text-align: left;
+font-family: "Advent Pro";
+font-size: 200%;
+}
+
+.right_align {
+color: white;
+text-align: left;
+font-family: "Advent Pro";
+font-size: 200%;
+}
+
+.white_text {
+background-color: rgb(28, 95, 182);
+color: white;
+font-family: "Advent Pro";
+font-size: 200%;
+}
+#slider_hor_start {
+  margin: 0px 10px 6px 12px;
+}
+
+#slider_hor_end, #slider_vert_start, #slider_vert_end {
+  margin: 30px 10px 6px 12px;
+}
